@@ -12,3 +12,16 @@ delete user["firstName"];
 console.log(user);
 
 //Task 1 END
+
+//Task 2
+
+function isEmpty(object){
+
+    let a = Object.keys(object).length == 0 ? true : false;
+
+    return a;
+}
+
+console.log(isEmpty(user));
+
+//Task 2 END
